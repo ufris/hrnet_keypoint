@@ -3,12 +3,12 @@ import cv2
 import matplotlib.pyplot as plt
 
 point_list = ['c2e','c3e','c4e','c5e','c6e','c7e','c2c','c3c','c4c','c5c','c6c','c7c']
-img_path = '/media/crescom/새 볼륨1/spine_data/original/C' + '/'
-train_save_path = '/media/crescom/새 볼륨1/spine_data/original/train_work_C' + '/'
-val_save_path = '/media/crescom/새 볼륨1/spine_data/original/val_work_C' + '/'
+img_path = '/media/j/새 볼륨1/spine_data/original/C' + '/'
+train_save_path = '/media/j/새 볼륨1/spine_data/original/train_work_C' + '/'
+val_save_path = '/media/j/새 볼륨1/spine_data/original/val_work_C' + '/'
 
-xml_path = '/media/crescom/새 볼륨1/spine_data/c_xml' + '/'
-save_path = '/media/crescom/새 볼륨1/spine_data' + '/'
+xml_path = '/media/j/새 볼륨1/spine_data/c_xml' + '/'
+save_path = '/media/j/새 볼륨1/spine_data' + '/'
 xml_list = sorted(os.listdir(xml_path))
 xml_dict = {}
 
